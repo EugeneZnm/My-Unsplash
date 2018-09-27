@@ -24,4 +24,13 @@ class Image(models.Model):
         :return:
         """
         image = cls.object.filter(name__contains=search_term)
+        return image
 
+    @classmethod
+    def image_filter(cls, id):
+        """
+        method to filter image by id
+        :return:
+        """
+        image = cls.object.filter(id=id)
+        return image
