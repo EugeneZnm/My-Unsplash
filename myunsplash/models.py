@@ -46,7 +46,7 @@ class Image(models.Model):
         return images
 
 
-class location(models.Model):
+class Location(models.Model):
     """
     class to save location of where the photograph was taken
     """
@@ -58,3 +58,13 @@ class location(models.Model):
         :return:
         """
         self.save()
+
+    def __str__(self):
+        return self.name
+
+
+class Category(models.Model):
+    """
+    category model to save image categories
+    """
+    category = models.CharField(max_length=10)
