@@ -6,9 +6,9 @@ class Image(models.Model):
     """
     Image class creating table for Image
     """
-    id = models.IntegerField()
     Name = models.CharField(max_length=20)
     Description = models.CharField(max_length=40)
+    location = models.ForeignKey()
 
     def save_image(self):
         """
@@ -18,19 +18,43 @@ class Image(models.Model):
         self.save()
 
     @classmethod
-    def search_by_name(cls, search_term):
+    def search_by_name(cls, category):
         """
-        method to search for image
+        method to search for image by category
         :return:
         """
-        image = cls.object.filter(name__contains=search_term)
+        image = cls.object.filter(name__contains=category)
         return image
 
     @classmethod
-    def image_filter(cls, id):
+    def location_filter(cls, location):
         """
         method to filter image by id
         :return:
         """
-        image = cls.object.filter(id=id)
+        image = cls.object.filter(location=location)
         return image
+
+    @classmethod
+    def get_image(cls):
+        """
+        method to get image by id
+        :return:
+        """
+        id = image.name()
+        images = cls.objects.filter(name=id)
+        return images
+
+
+class location(models.Model):
+    """
+    class to save location of where the photograph was taken
+    """
+    locale = models.CharField(max_length=20)
+
+    def save_location(self):
+        """
+        method to save location
+        :return:
+        """
+        self.save()
