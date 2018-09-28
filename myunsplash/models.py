@@ -8,9 +8,10 @@ class Image(models.Model):
     """
     Name = models.CharField(max_length=20)
     Description = models.CharField(max_length=40)
-    location = models.ForeignKey()
-    category = models.ForeignKey()
-    Location = models.ManyToManyField(location)
+    image =  models.ImageField(upload_to='images/', blank=True)
+    location = models.ForeignKey(Location)
+    category = models.ForeignKey(Category)
+    Category = models.ManyToManyField(Category)
 
     def save_image(self):
         """
