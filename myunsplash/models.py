@@ -37,9 +37,9 @@ class Image(models.Model):
     """
     Name = models.CharField(max_length=20)
     Description = models.CharField(max_length=40)
-    image =  models.ImageField(upload_to='images/', blank=True)
+    image = models.ImageField(upload_to='images/', blank=True)
     location = models.ForeignKey(Location)
-    Category = models.ManyToManyField(Category)
+    category = models.ForeignKey(Category, default=True)
 
     def save_image(self):
         """
