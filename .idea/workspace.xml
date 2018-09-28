@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29fbdfef-98ab-4950-bbfb-34f6eb5f64ae" name="Default Changelist" comment="" />
+    <list default="true" id="29fbdfef-98ab-4950-bbfb-34f6eb5f64ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/myunsplash/templates/Image/image-by-location.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myunsplash/templates/Image/single-image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myunsplash/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myunsplash/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myunsplash/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myunsplash/models.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,21 +27,25 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="13" />
-          <entry key="py" value="1384" />
+          <entry key="html" value="60" />
+          <entry key="py" value="1475" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1397" />
+          <entry key="HTML" value="60" />
+          <entry key="Python" value="1488" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="html" value="4" />
           <entry key="py" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="HTML" value="4" />
           <entry key="Python" value="2" />
         </counts>
       </usages-collector>
@@ -54,22 +65,65 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myunsplash/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-423">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="120">
+              <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
               <folding>
-                <marker date="1538111157300" expanded="true" signature="84:89" ph="..." />
-                <marker date="1538111157300" expanded="true" signature="514:626" ph="..." />
-                <marker date="1538111157300" expanded="true" signature="1301:1306" ph="..." />
-                <marker date="1538111157300" expanded="true" signature="1629:1634" ph="..." />
+                <marker date="1538120910361" expanded="true" signature="84:89" ph="..." />
+                <marker date="1538120910361" expanded="true" signature="594:706" ph="..." />
+                <marker date="1538120910361" expanded="true" signature="1381:1386" ph="..." />
+                <marker date="1538120910361" expanded="true" signature="1709:1714" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myunsplash/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myunsplash/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myunsplash/templates/Image/single-image.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myunsplash/templates/Image/image-by-location.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,13 +133,16 @@
       <list>
         <option value="$PROJECT_DIR$/myunsplash/views.py" />
         <option value="$PROJECT_DIR$/myunsplash/models.py" />
+        <option value="$PROJECT_DIR$/myunsplash/templates/base.html" />
+        <option value="$PROJECT_DIR$/myunsplash/templates/index.html" />
+        <option value="$PROJECT_DIR$/myunsplash/templates/Image/single-image.html" />
+        <option value="$PROJECT_DIR$/myunsplash/templates/Image/image.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-5" />
-    <option name="y" value="57" />
-    <option name="width" value="927" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="25" />
+    <option name="width" value="713" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -104,7 +161,25 @@
             <path>
               <item name="UNSPLASH" type="b2602c69:ProjectViewProjectNode" />
               <item name="UNSPLASH" type="462c0819:PsiDirectoryNode" />
+              <item name="heyapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UNSPLASH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UNSPLASH" type="462c0819:PsiDirectoryNode" />
               <item name="myunsplash" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UNSPLASH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UNSPLASH" type="462c0819:PsiDirectoryNode" />
+              <item name="myunsplash" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UNSPLASH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UNSPLASH" type="462c0819:PsiDirectoryNode" />
+              <item name="myunsplash" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="Image" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -112,6 +187,9 @@
       </pane>
       <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -139,10 +217,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="57" width="927" height="744" extended-state="1" />
-    <editor active="true" />
+    <frame x="0" y="25" width="713" height="744" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24887556" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.34937888" />
@@ -154,7 +231,7 @@
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" weight="0.3275862" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49772727" visible="true" weight="0.14123377" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49772727" visible="true" weight="0.37175325" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5022727" side_tool="true" weight="0.33695653" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32954547" />
       <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.32919255" />
@@ -181,14 +258,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myunsplash/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-423">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="120">
+          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
           <folding>
-            <marker date="1538111157300" expanded="true" signature="84:89" ph="..." />
-            <marker date="1538111157300" expanded="true" signature="514:626" ph="..." />
-            <marker date="1538111157300" expanded="true" signature="1301:1306" ph="..." />
-            <marker date="1538111157300" expanded="true" signature="1629:1634" ph="..." />
+            <marker date="1538120910361" expanded="true" signature="84:89" ph="..." />
+            <marker date="1538120910361" expanded="true" signature="594:706" ph="..." />
+            <marker date="1538120910361" expanded="true" signature="1381:1386" ph="..." />
+            <marker date="1538120910361" expanded="true" signature="1709:1714" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myunsplash/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myunsplash/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myunsplash/templates/Image/single-image.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myunsplash/templates/Image/image-by-location.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>

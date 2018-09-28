@@ -9,7 +9,7 @@ class Image(models.Model):
     Name = models.CharField(max_length=20)
     Description = models.CharField(max_length=40)
     image =  models.ImageField(upload_to='images/', blank=True)
-    location = models.ForeignKey(Location)
+    location = models.ForeignKey(location)
     category = models.ForeignKey(Category)
     Category = models.ManyToManyField(Category)
 
