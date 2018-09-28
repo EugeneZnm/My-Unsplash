@@ -19,8 +19,15 @@ class Image(models.Model):
         """
         self.save()
 
+    def delete_image(self):
+        """
+        method to delete image and details
+        :return:
+        """
+        self.delete()
+
     @classmethod
-    def search_by_name(cls, category):
+    def search_by_category(cls, category):
         """
         method to search for image by category
         :return:
@@ -62,7 +69,7 @@ class Location(models.Model):
         self.save()
 
     def __str__(self):
-        return self.name
+        return self.locale
 
 
 class Category(models.Model):
@@ -70,3 +77,6 @@ class Category(models.Model):
     category model to save image categories
     """
     category = models.CharField(max_length=10)
+
+    def __str__(self):
+        return self.category
