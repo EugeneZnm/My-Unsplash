@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29fbdfef-98ab-4950-bbfb-34f6eb5f64ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/heyapp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/heyapp/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myunsplash/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myunsplash/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myunsplash/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/myunsplash/templates/base.html" afterDir="false" />
-    </list>
+    <list default="true" id="29fbdfef-98ab-4950-bbfb-34f6eb5f64ae" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,8 +109,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/heyapp/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+            <state relative-caret-position="201">
+              <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -183,13 +179,6 @@
               <item name="myunsplash" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="UNSPLASH" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UNSPLASH" type="462c0819:PsiDirectoryNode" />
-              <item name="myunsplash" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="Image" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -227,9 +216,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="793" height="744" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22222222" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30254352" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.34937888" />
@@ -309,8 +297,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/heyapp/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        <state relative-caret-position="201">
+          <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
         </state>
       </provider>
     </entry>
