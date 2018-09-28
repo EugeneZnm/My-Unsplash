@@ -56,12 +56,12 @@ class Image(models.Model):
         self.delete()
 
     @classmethod
-    def search_by_category(cls, category):
+    def search_by_category(cls, search_term):
         """
         method to search for image by category
         :return:
         """
-        image = cls.object.filter(name__contains=category)
+        image = cls.object.filter(category__icontains=search_term)
         return image
 
     @classmethod
