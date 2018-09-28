@@ -76,12 +76,20 @@ class Image(models.Model):
     @classmethod
     def get_image(cls):
         """
-        method to get image by id
+        method to get  all images
         :return:
         """
-        id = image.name()
-        images = cls.objects.filter(name=id)
+        images = cls.objects.all()
         return images
+
+    @classmethod
+    def single_image(cls, id):
+        """
+        method to get images by id
+        :return:
+        """
+        pic = cls.objects.filter(id=id)
+        return pic
 
 
 

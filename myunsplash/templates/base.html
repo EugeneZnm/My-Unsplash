@@ -1,26 +1,29 @@
-<!DOCTYPE html>
 {% load bootstrap4 %}
-<html>
+{% load static%}
+
+<html lang="en">
 <head>
-  <meta charset="utf-8">
+    <meta charset="UTF-8">
 
-  {% if title %}
-  <title>My Unsplash - {{title}}</title>
-  {% else %}
-    <title> My Unsplash </title>
-  {% endif %}
+    <!-- if esle statement checking if we get title value from view function that will render template-->
+    {% if title %}
+    <title> Moringa Tribune - {{title}}</title>
+    {% else %}
+    <title> Moringa Tribune </title>
+    {% endif %}
 
-  {% block styles %}
+    {% block styles %}
     {% bootstrap_css %}
-  {% endblock %}
+    <link rel="stylesheet" href="{% static 'css/basenews.css' %}">
+    {% endblock %}
 
 </head>
 <body>
-    {% block content %} <h1 class='text-center'>News for {{date|date:"l d-F Y"}}</h1> {%endblock%}
-
+    {% include "navbar.html" %}
+    {% block content %} <h1 class="text-center">News for {{date|date:"l d-F Y"}}</h1> {% endblock %}
     {% block scripts %}
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-     {% bootstrap_javascript %}
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    {% bootstrap_javascript %}
     {% endblock %}
 </body>
 </html>
