@@ -31,6 +31,25 @@ class LocationTestClass(TestCase):
         Location.objects.all().delete()
 
 
+class CategoryTestClass(TestCase):
+    """
+    Test class for testing category model
+    """
+    def setUp(self):
+        """
+        setup method creating instance of category
+        :return:
+        """
+        self.Travel = Category(category='Travel')
+
+    def test_instance(self):
+        """
+        instantiation of category
+        :return:
+        """
+        self.assertTrue(isinstance(self.Travel, Category))
+
+
 class ImageTestClass(TestCase):
     """
     test class to test image model
@@ -57,3 +76,5 @@ class ImageTestClass(TestCase):
         Image.objects.all().delete()
         Location.objects.all().delete()
         Category.objects.all().delete()
+
+
