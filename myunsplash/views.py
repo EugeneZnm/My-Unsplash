@@ -20,7 +20,18 @@ def single_image(request, image_id):
     return render(request, 'single-image.html', {"pics":pics})
 
 
+# search images
+def search_results(request):
+    if 'image' in request.GET and request.GET["image"]:
+        search_term =request.GET.get("image")
+        searched_images = Image.search_by_category(search_term)
+        message = f"{search_term}"
 
+        return render(request, 'search.html',{"message":message, "images":searched_images})
+
+    else:
+        message ="Enter Category to Search For"
+        return render(request, "search.html", {"message":message})
 
 
 
