@@ -58,7 +58,7 @@ source virtual/bin/activate
 ```
 ### Installing dependencies
 ```bash
-pip3 install -r requirements
+pip install -r requirements.txt
 ```
 
 ### Prepare environmet variables
