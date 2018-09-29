@@ -1,8 +1,5 @@
 from django.shortcuts import render, redirect
 
-# importation of HttpResponse from django
-from django.http import HttpResponse
-
 from .models import Image, Location, Category
 
 
@@ -11,13 +8,14 @@ def Home(request):
     images = Image.get_image()
     for x in images:
         print(x.image)
-    return render(request, 'index.html',{"images":images})
+    location = Location.objects.all()
+    return render(request, 'index.html',{"images":images, "location":location} )
 
 
-# view function to represent
+# view function for single image
 def single_image(request, image_id):
-    pics = Image.objects.get(id=image_id)
-    return render(request, 'single-image.html', {"pics":pics})
+    images = Image.single_image(image_id)
+    return render(request, 'Image/single-image.html', {"images":images, "image_id":image_id})
 
 
 # search images
@@ -27,11 +25,11 @@ def search_results(request):
         searched_images = Image.search_by_category(search_term)
         message = f"{search_term}"
 
-        return render(request, 'search.html',{"message":message, "images":searched_images})
+        return render(request, 'Image/search.html',{"message":message, "images":searched_images})
 
     else:
         message ="Enter Category to Search For"
-        return render(request, "search.html", {"message":message})
+        return render(request, "Image/search.html", {"message":message})
 
 
 

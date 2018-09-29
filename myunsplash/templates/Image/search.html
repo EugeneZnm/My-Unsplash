@@ -1,11 +1,10 @@
 {%extends 'base.html'%}
 
 {% block content %}
-{{block.super}}
 <div class="container">
 
   <div class="row">
-    {% if articles%}
+    {% if images%}
       <h2>Found {{ images|length }} of searched term {{message}}</h2>
     {% else %}
       <h2> Found 0 images for the search term {{message}}</h2>
@@ -15,11 +14,22 @@
 
   <div class="row">
 
-  {% if articles %}
-    {% for article in articles %}
-      <div class="col-sm-6 col-md-3">
-          <h1>{{image.image}}</h1>
-      </div>
+  {% if images %}
+    {% for image in images %}
+      <div class="col-md-4 ml-3" style="width:12rem;">
+            <img class="card-img-top" style="height: 20rem;" src="{{image.image.url}}" alt="card image cap" data-toggle="modal" data-target="#exampleModal">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5 class="card-title">{{image.Name}}</h5>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="card-title">{{image.category}}</h5>
+                    </div>
+                </div>
+                <p class="card-text">{{image.Description}}</p>
+            </div>
+        </div>
     {% endfor %}
   {% endif %}
   </div>

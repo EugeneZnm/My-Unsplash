@@ -7,9 +7,9 @@
 
     <!-- if esle statement checking if we get title value from view function that will render template-->
     {% if title %}
-    <title> Moringa Tribune - {{title}}</title>
+    <title> BELLA VISTA - {{title}}</title>
     {% else %}
-    <title> Moringa Tribune </title>
+    <title> BELLA VISTA </title>
     {% endif %}
 
     {% block styles %}
@@ -20,7 +20,7 @@
 </head>
 <body>
     {% include "navbar.html" %}
-    {% block content %} <h1 class="text-center">News for {{date|date:"l d-F Y"}}</h1> {% endblock %}
+    {% block content %}{% endblock %}
     {% block scripts %}
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     {% bootstrap_javascript %}

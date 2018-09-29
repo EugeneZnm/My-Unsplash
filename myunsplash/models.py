@@ -61,7 +61,7 @@ class Image(models.Model):
         method to search for image by category
         :return:
         """
-        image = cls.object.filter(category__icontains=search_term)
+        image = cls.objects.filter(category__category__icontains=search_term)
         return image
 
     @classmethod
@@ -83,13 +83,13 @@ class Image(models.Model):
         return images
 
     @classmethod
-    def single_image(cls, id):
+    def single_image(cls, image_id):
         """
         method to get images by id
         :return:
         """
-        pic = cls.objects.filter(id=id)
-        return pic
+        images = cls.objects.filter(id=image_id)
+        return images
 
 
 
