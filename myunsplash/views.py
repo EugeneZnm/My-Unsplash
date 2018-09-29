@@ -12,6 +12,17 @@ def Home(request):
     return render(request, 'index.html',{"images":images, "location":location} )
 
 
+# view function to display images by location
+def location(request):
+    location = Location.objects.all()
+    return render(request, 'location.html', {"location":location})
+
+
+def location1(request):
+    locations = Location.objects.all()
+    return render(request, 'navbar.html', {"locations":locations})
+
+
 # view function for single image
 def single_image(request, image_id):
     images = Image.single_image(image_id)
