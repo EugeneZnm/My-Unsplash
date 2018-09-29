@@ -13,9 +13,10 @@ def Home(request):
 
 
 # view function to display images by location
-def location(request):
-    location = Location.objects.all()
-    return render(request, 'location.html', {"location":location})
+def location(request,locale ):
+    image = Location.objects.get(locale=locale)
+    images = Image.objects.filter(location_id=image.id)
+    return render(request, 'location.html', {"image":images})
 
 
 def location1(request):
