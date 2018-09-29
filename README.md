@@ -100,7 +100,6 @@ python manage.py runserver
 Refer to this guide: [deploying to heroku](https://simpleisbetterthancomplex.com/tutorial/2016/08/09/how-to-deploy-django-applications-on-heroku.html)
 Set the configuration to production mode
 
-
 ## Live Demo
 
 The web app can be accessed from the following link: 
@@ -110,7 +109,7 @@ The web app can be accessed from the following link:
 ## Technology used
 
 * [Python3.6](https://www.python.org/)
-* [Django 2.0.2](https://www.djangoproject.com/)
+* [Django 1.11](https://docs.djangoproject.com/en/1.11/)
 * [Heroku](https://heroku.com)
 
 

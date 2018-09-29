@@ -23,14 +23,14 @@
         <counts>
           <entry key="Python Console" value="13" />
           <entry key="html" value="2146" />
-          <entry key="md" value="111" />
+          <entry key="md" value="117" />
           <entry key="py" value="5113" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="2146" />
-          <entry key="Markdown" value="111" />
+          <entry key="Markdown" value="117" />
           <entry key="Python" value="5126" />
         </counts>
       </usages-collector>
@@ -155,8 +155,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-1430">
-                <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <first_editor relative-caret-position="280">
+                <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
               </first_editor>
               <second_editor />
             </state>
@@ -322,7 +322,7 @@
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" weight="0.3275862" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49772727" visible="true" weight="0.32298136" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49772727" visible="true" weight="0.32298136" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5022727" side_tool="true" weight="0.33695653" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32954547" />
       <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.32919255" />
@@ -524,8 +524,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1430">
-            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <first_editor relative-caret-position="280">
+            <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
           </first_editor>
           <second_editor />
         </state>
