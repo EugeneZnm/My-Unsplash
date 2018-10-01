@@ -11,3 +11,4 @@ unicodecsv==0.14.1
 pytz==2018.5
 whitenoise==4.1
 Unipath==1.0
+config==0.4.0
